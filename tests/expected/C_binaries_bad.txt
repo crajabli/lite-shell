@@ -1,0 +1,6 @@
+./bin/ls: invalid option -- 'l'
+./bin/head: invalid option -- 'c'
+$ ./bin/ls -l
+$ ./bin/head -c 5 Makefile
+$ quit
+

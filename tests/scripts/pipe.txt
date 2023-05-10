@@ -1,0 +1,3 @@
+./bin/ls -a data | ./bin/head -n 1
+./bin/ls -a data | ./bin/head -n 2000
+quit

@@ -1,0 +1,5 @@
+./bin/ls data
+echo $?
+./bin/ls asldfkjasldfkj
+echo $?
+quit

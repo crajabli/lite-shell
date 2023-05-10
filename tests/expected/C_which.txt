@@ -1,0 +1,14 @@
+$ which cd
+cd: dukesh built-in command
+$ which echo
+echo: dukesh built-in command
+$ which pwd
+pwd: dukesh built-in command
+$ which which 
+which: dukesh built-in command
+$ which ./bin/ls
+./bin/ls
+$ which ./bin/head
+./bin/head
+$ quit
+

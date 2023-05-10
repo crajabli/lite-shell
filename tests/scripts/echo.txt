@@ -1,0 +1,3 @@
+echo goodbye
+echo hello\nworld
+quit

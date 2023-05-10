@@ -1,0 +1,7 @@
+$ cd /usr/bin
+$ pwd
+/usr/bin
+$ which ls
+/bin/ls
+$ quit
+

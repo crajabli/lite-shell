@@ -1,0 +1,10 @@
+$ ./bin/env A=5 ./bin/env
+A=5
+$ ./bin/env A=5 B=6 C=7 ./bin/env
+A=5
+B=6
+C=7
+$ ./bin/env A=5 B=6 C=7 ./bin/env | head -n 1
+A=5
+$ quit
+

@@ -1,0 +1,5 @@
+which export
+echo N=${NUM}
+export NUM=5
+echo N=${NUM}
+quit

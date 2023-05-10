@@ -1,0 +1,24 @@
+# list of integration tests
+#  format: run_test <TAG> <ARGS>
+#    <TAG>      used as the root for all filenames (i.e., "expected/$TAG.txt")
+#    <ARGS>     command-line arguments to test
+
+run_test    D_quit                "-b scripts/quit.txt"
+run_test    D_echo                "-b scripts/echo_min.txt"
+
+run_test    C_cd_pwd              "-b scripts/dirs.txt"
+run_test    C_echo                "-b scripts/echo.txt"
+run_test    C_echo_space          "-b scripts/echo_space.txt"
+run_test    C_binaries            "-b scripts/bins.txt"
+run_test    C_binaries_flags      "-b scripts/bins_flags.txt"
+run_test    C_binaries_bad        "-b scripts/bins_bad.txt"
+run_test    C_which               "-b scripts/which.txt"
+
+run_test    B_return_code         "-b scripts/rc.txt"
+run_test    B_export_unset        "-b scripts/export.txt"
+run_test    B_env                 "-b scripts/env.txt"
+
+run_test    A_binaries            "-b scripts/bins.txt"
+run_test    A_binaries_flags      "-b scripts/bins_flags.txt"
+run_test    A_pipe                "-b scripts/pipe.txt"
+run_test    A_which               "-b scripts/which_exec.txt"

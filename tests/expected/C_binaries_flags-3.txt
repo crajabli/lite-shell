@@ -1,0 +1,19 @@
+.
+..
+pwd.txt
+.hidden.txt
+empty.txt
+9 pwd.txt
+0 empty.txt
+4096 .
+4096 ..
+9 pwd.txt
+5 .hidden.txt
+0 empty.txt
+#
+$ ./bin/ls -a data
+$ ./bin/ls -s data
+$ ./bin/ls -sa data
+$ ./bin/head -n 1 Makefile
+$ quit
+

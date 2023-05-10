@@ -1,0 +1,10 @@
+$ ./bin/ls data
+pwd.txt
+empty.txt
+$ echo $?
+0
+$ ./bin/ls asldfkjasldfkj
+$ echo $?
+1
+$ quit
+

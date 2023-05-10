@@ -1,0 +1,11 @@
+$ ./bin/ls data
+pwd.txt
+empty.txt
+$ ./bin/head Makefile
+#
+# Simple Test Makefile
+# Mike Lam, James Madison University, August 2016
+#
+# This version of the Makefile includes support for building a test suite. The
+$ quit
+

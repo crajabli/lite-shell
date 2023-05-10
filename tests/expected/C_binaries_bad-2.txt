@@ -1,0 +1,4 @@
+$ ./bin/ls -l
+$ ./bin/head -c 5 Makefile
+$ quit
+
